@@ -1,1 +1,2 @@
-GITHUB_API_TOKEN = "ghp_x7K2mP9qR4tV8wY1zA3cE6fH0jL5nB2dG9sU"
+SLACK_BOT_TOKEN = "xoxb-123456789012-1234567890123-AbCdEfGhIjKlMnOpQrStUvWx"
+""" Esto es una clave secreta de Slack. Simulación de fuga de credenciales. """
