@@ -1,0 +1,18 @@
+title = "gitleaks config PennyLessTrack"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Secretos ficticios usados en las prácticas"
+commits = [
+  "37a3b76e8a62f08675b83b369f8453f57d4299e3",
+  "7906a72155e082202d0e9367f39b374717e337ea",
+  "4f147da741bfc0f79a5898230869eba5c763b6c2",
+]
+
+[[rules]]
+id = "pennylesstrack-internal-id"
+description = "ID interno de PennyLessTrack (regla propia de ejemplo)"
+regex = '''PLT_[A-Z0-9]{16}'''
+keywords = ["plt_"]
